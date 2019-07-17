@@ -3,7 +3,9 @@ package main
 import "testing"
 
 func TestSample(t *testing.T) {
-	if 1 != 1 {
+	got := "foo"
+	want := "foo"
+	if got != want {
 		t.Error("test sample not as expected")
 	}
 }
